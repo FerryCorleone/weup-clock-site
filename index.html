@@ -1,8 +1,224 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WeUp Clock — Support</title><meta name="description" content="Support and privacy information for WeUp Clock, a local shared-pose alarm for iPhone."><link rel="stylesheet" href="style.css"><link rel="icon" href="icon.png"></head><body>
-<header><a class="brand" href="./"><img src="icon.png" alt="">WeUp Clock</a><nav><a href="#support">Support</a><a href="#zh" lang="zh-Hans">中文帮助</a><a href="privacy.html">Privacy</a></nav></header>
-<main><h1>Wake up together.</h1><p class="lead">A shared pose challenge for 2–4 people.<br>One iPhone. One room. Your own morning.</p><p>WeUp Clock combines scheduled iOS alarms with a camera pose task. Match the selected pose together, then optionally save the moment. Recognition happens on your iPhone.</p>
-<section id="support"><h2>Support</h2><p>Contact <a href="mailto:qiezi.products@gmail.com?subject=WeUp%20Clock%20Support">qiezi.products@gmail.com</a>. Please include your iPhone model, iOS version, app version, and a description of the issue. Do not send private photos, recordings, or passwords.</p></section>
-<div class="card"><h2>Set an alarm</h2><p>Tap + on the home screen, choose a time, repeat days, 2–4 participants, a pose, and a sound. Save and allow alarm access when iOS asks. You can create and manage several alarms independently.</p><h2>Complete the pose</h2><p>Use the alarm’s task button and unlock normally. Allow camera access, place the phone securely, and get everyone in frame. Landscape gives groups more room. The thumbnail shows the target; dashed guides follow your body. Everyone needs to match simultaneously for 1.25 seconds.</p><h2>Create your own action</h2><p>Open pose selection and create an action. Use the five-second camera timer or import a group photo. Review the extracted upper-body or full-body pose, add a name and hint, and save. Full-body poses need visible knees and ankles.</p><h2>Save a completion photo</h2><p>After success, tap Save image. Photos permission is add-only; the app does not browse your photo library. Nothing is saved automatically. The temporary photo expires when you leave the result or after 10 minutes.</p></div>
-<h2>Troubleshooting</h2><h3>The pose is hard to match</h3><p>Use good light. Keep each participant’s shoulders, elbows, and wrists visible; full-body actions also need knees and ankles. Avoid overlapping bodies and camera shake. Use quiet rehearsal before relying on a new setup.</p><h3>The alarm is quiet</h3><p>For bundled or recorded sounds, check the media volume and current audio output. System default sound is managed by iOS and cannot be previewed through the app. Alarm and haptic behavior can vary with permissions, system settings, and audio routes.</p><h3>I need to end an unfinished task</h3><p>Open task help, expand the unable-to-complete section, and confirm the emergency end. Closing the normal task screen does not count as success.</p><p class="note">iOS owns the lock-screen Stop control. WeUp Clock cannot make an alarm impossible to dismiss. An unfinished task may schedule a follow-up when the app or its intent runs. Force-quitting, shutdown, revoked permissions, and system restrictions can interrupt this flow. Use another reminder for critical events.</p>
-<h2>Languages</h2><p>Choose Language in Settings, or follow your iPhone’s language. English, Simplified Chinese, Traditional Chinese, Japanese, Korean, Spanish, French, German, Brazilian Portuguese, and Arabic are supported. Your custom names and hints stay as you entered them.</p>
-<hr><section id="zh" lang="zh-Hans"><h2>中文帮助</h2><p>WeUp Clock 是同地、同机同框的多人动作闹钟，支持 2–4 人与 iOS 26.1 及以上版本。</p><p>问题反馈：<a href="mailto:qiezi.products@gmail.com?subject=WeUp%20Clock%20%E5%B8%AE%E5%8A%A9">qiezi.products@gmail.com</a>。请说明机型、iOS 版本、App 版本与复现步骤，无需提供私人照片、录音或密码。</p><h3>设置和完成</h3><p>首页点＋，选择时间、重复日期、人数、动作和铃声并保存。响铃后通过系统入口解锁进入动作任务，将手机放稳，让所有人入镜。横屏更适合并排站位。右上缩略图展示目标动作，虚线随身体引导；全员同时达标并保持 1.25 秒即可完成。</p><h3>自定义动作与铃声</h3><p>选动作时可用五秒延时拍摄或导入合影，本机提取后添加名称和提示。全身动作需要看见膝盖与脚踝。铃声列表点选即可试听内置或自录声音；系统默认声没有公开的直接试听接口。</p><h3>照片与紧急结束</h3><p>完成后主动点“保存图片”才申请仅添加照片权限并写入相册。结果页退出或十分钟到期后清除内存照片；不自动保存。无法完成时，可在任务帮助内展开“无法完成”区域，确认紧急结束。</p><p class="note">系统锁屏“停止”由 iOS 提供，App 无法移除。未完成任务在 App 或其 Intent 获得运行机会时可安排再次提醒；强退、关机、撤权及系统限制可能中断。重要行程请准备额外提醒。</p><p><a href="privacy.html#zh">阅读隐私政策</a></p></section></main><footer>© 2026 Jin Luo · WeUp Clock · iPhone / iOS 26.1+<p>This support site is hosted by GitHub Pages. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub’s privacy statement</a> applies to hosting requests. The iPhone app does not use this website to provide its alarm or recognition functions.</p></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>WeUp Clock — Wake up together</title>
+<meta name="description" content="WeUp Clock is a multi-person pose alarm for iPhone. One alarm for 2–4 people: match the selected poses together to wake up. No account, no server, on-device.">
+<meta name="theme-color" content="#F5F4F0">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WeUp Clock — Wake up together">
+<meta property="og:description" content="One alarm for 2–4 people. Strike the pose together to wake up.">
+<meta property="og:image" content="icon.png">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="./"><img src="icon.png" alt="" width="36" height="36">WeUp Clock</a>
+    <nav aria-label="Primary">
+      <a href="#how" data-i18n="nav.how">How it works</a>
+      <a href="#poses" data-i18n="nav.poses">Poses</a>
+      <a href="#privacy" data-i18n="nav.privacy">Privacy</a>
+      <a href="support.html" data-i18n="nav.support">Support</a>
+    </nav>
+    <div class="nav-end">
+      <div class="lang" role="group" aria-label="Language"><button data-setlang="en" aria-pressed="true">EN</button><button data-setlang="zh" aria-pressed="false">中文</button></div>
+      <a class="btn-sm" data-appstore href="https://www.apple.com/app-store/" data-i18n="nav.download">Download</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Multi-person pose alarm for iPhone</p>
+        <h1 data-i18n="hero.title">Wake up <em>together.</em></h1>
+        <p class="lead" data-i18n="hero.sub">One alarm for 2–4 people. To complete the wake-up task, everyone matches their target pose in front of one iPhone — and holds it together.</p>
+        <div class="cta-row">
+          <a class="badge" data-appstore href="https://www.apple.com/app-store/" aria-label="Download on the App Store">
+            <svg viewBox="0 0 17 20" aria-hidden="true"><symbol id="apple" viewBox="0 0 17 20"><path d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9-.1 0-2.7-1-2.7-4.1zM11.6 3c.7-.9 1.2-2 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z"/></symbol><use href="#apple"/></svg>
+            <span><small data-i18n="cta.badgeSmall">Download on the</small><b data-i18n="cta.badgeBig">App Store</b></span>
+          </a>
+          <a class="link-arrow" href="#how" data-i18n="hero.secondary">See how it works</a>
+        </div>
+        <p class="req" data-i18n="hero.req">For iPhone · Requires iOS 26.1 or later</p>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="glow"></div>
+        <div class="phone">
+          <div class="screen cam">
+            <div class="island"></div>
+            <div class="hud"><div><b>WeUp Clock</b><span data-i18n="screen.sub">2 people · Hands up</span></div><div class="thumb" data-pose="1"></div></div>
+            <svg class="hero-skel" viewBox="0 0 320 440" aria-hidden="true">
+<path d="M70 168 L36 136 L50 94" class="guide"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="0;.9;.9;.9;0;0;0;0;0"/></path>
+<path d="M130 168 L164 136 L150 94" class="guide"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="0;.9;.9;.9;0;0;0;0;0"/></path>
+<path d="M190 168 L156 136 L170 94" class="guide"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="0;.9;.9;.9;0;0;0;0;0"/></path>
+<path d="M250 168 L284 136 L270 94" class="guide"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="0;.9;.9;.9;0;0;0;0;0"/></path>
+<g class="bone">
+<path d="M70 168 L130 168 L120 270 L80 270 Z"><animate attributeName="stroke" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#fff;#fff;#fff;#fff;#fff;#3DDC84;#3DDC84;#fff;#fff" calcMode="discrete"/></path>
+<path d="M100 168 L100 138"><animate attributeName="stroke" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#fff;#fff;#fff;#fff;#fff;#3DDC84;#3DDC84;#fff;#fff" calcMode="discrete"/></path>
+<path d="M80 270 L76 340 L74 404 M120 270 L124 340 L126 404"><animate attributeName="stroke" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#fff;#fff;#fff;#fff;#fff;#3DDC84;#3DDC84;#fff;#fff" calcMode="discrete"/></path>
+<path d="M70 168 L60 214 L56 258"><animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="M70 168 L60 214 L56 258;M70 168 L60 214 L56 258;M70 168 L44 128 L56 84;M70 168 L44 128 L56 84;M70 168 L44 128 L56 84;M70 168 L44 128 L56 84;M70 168 L44 128 L56 84;M70 168 L60 214 L56 258;M70 168 L60 214 L56 258" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="stroke" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#fff;#fff;#fff;#fff;#fff;#3DDC84;#3DDC84;#fff;#fff" calcMode="discrete"/></path>
+<path d="M130 168 L140 214 L144 258"><animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="M130 168 L140 214 L144 258;M130 168 L140 214 L144 258;M130 168 L162 160 L158 118;M130 168 L156 128 L144 84;M130 168 L156 128 L144 84;M130 168 L156 128 L144 84;M130 168 L156 128 L144 84;M130 168 L140 214 L144 258;M130 168 L140 214 L144 258" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="stroke" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#fff;#fff;#fff;#fff;#fff;#3DDC84;#3DDC84;#fff;#fff" calcMode="discrete"/></path>
+</g>
+<circle class="node" r="6.5" cx="60" cy="214"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="60;60;44;44;44;44;44;60;60" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="214;214;128;128;128;128;128;214;214" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="56" cy="258"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="56;56;56;56;56;56;56;56;56" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="258;258;84;84;84;84;84;258;258" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="70" cy="168"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="70;70;70;70;70;70;70;70;70" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="168;168;168;168;168;168;168;168;168" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="140" cy="214"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="140;140;162;156;156;156;156;140;140" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="214;214;160;128;128;128;128;214;214" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="144" cy="258"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="144;144;158;144;144;144;144;144;144" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="258;258;118;84;84;84;84;258;258" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="130" cy="168"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="130;130;130;130;130;130;130;130;130" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="168;168;168;168;168;168;168;168;168" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="9" cx="100" cy="128"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="100;100;100;100;100;100;100;100;100" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="128;128;128;128;128;128;128;128;128" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="80" cy="270"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="80;80;80;80;80;80;80;80;80" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="270;270;270;270;270;270;270;270;270" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="120" cy="270"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="120;120;120;120;120;120;120;120;120" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="270;270;270;270;270;270;270;270;270" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="76" cy="340"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="76;76;76;76;76;76;76;76;76" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="340;340;340;340;340;340;340;340;340" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="124" cy="340"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="124;124;124;124;124;124;124;124;124" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="340;340;340;340;340;340;340;340;340" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<g class="bone">
+<path d="M190 168 L250 168 L240 270 L200 270 Z"><animate attributeName="stroke" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#fff;#fff;#fff;#fff;#fff;#3DDC84;#3DDC84;#fff;#fff" calcMode="discrete"/></path>
+<path d="M220 168 L220 138"><animate attributeName="stroke" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#fff;#fff;#fff;#fff;#fff;#3DDC84;#3DDC84;#fff;#fff" calcMode="discrete"/></path>
+<path d="M200 270 L196 340 L194 404 M240 270 L244 340 L246 404"><animate attributeName="stroke" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#fff;#fff;#fff;#fff;#fff;#3DDC84;#3DDC84;#fff;#fff" calcMode="discrete"/></path>
+<path d="M190 168 L180 214 L176 258"><animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="M190 168 L180 214 L176 258;M190 168 L180 214 L176 258;M190 168 L164 128 L176 84;M190 168 L164 128 L176 84;M190 168 L164 128 L176 84;M190 168 L164 128 L176 84;M190 168 L164 128 L176 84;M190 168 L180 214 L176 258;M190 168 L180 214 L176 258" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="stroke" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#fff;#fff;#fff;#fff;#fff;#3DDC84;#3DDC84;#fff;#fff" calcMode="discrete"/></path>
+<path d="M250 168 L260 214 L264 258"><animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="M250 168 L260 214 L264 258;M250 168 L260 214 L264 258;M250 168 L276 128 L264 84;M250 168 L276 128 L264 84;M250 168 L276 128 L264 84;M250 168 L276 128 L264 84;M250 168 L276 128 L264 84;M250 168 L260 214 L264 258;M250 168 L260 214 L264 258" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="stroke" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#fff;#fff;#fff;#fff;#fff;#3DDC84;#3DDC84;#fff;#fff" calcMode="discrete"/></path>
+</g>
+<circle class="node" r="6.5" cx="180" cy="214"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="180;180;164;164;164;164;164;180;180" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="214;214;128;128;128;128;128;214;214" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="176" cy="258"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="176;176;176;176;176;176;176;176;176" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="258;258;84;84;84;84;84;258;258" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="190" cy="168"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="190;190;190;190;190;190;190;190;190" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="168;168;168;168;168;168;168;168;168" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="260" cy="214"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="260;260;276;276;276;276;276;260;260" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="214;214;128;128;128;128;128;214;214" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="264" cy="258"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="264;264;264;264;264;264;264;264;264" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="258;258;84;84;84;84;84;258;258" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="250" cy="168"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="250;250;250;250;250;250;250;250;250" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="168;168;168;168;168;168;168;168;168" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="9" cx="220" cy="128"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="220;220;220;220;220;220;220;220;220" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="128;128;128;128;128;128;128;128;128" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="200" cy="270"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="200;200;200;200;200;200;200;200;200" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="270;270;270;270;270;270;270;270;270" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="240" cy="270"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="240;240;240;240;240;240;240;240;240" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="270;270;270;270;270;270;270;270;270" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="196" cy="340"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="196;196;196;196;196;196;196;196;196" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="340;340;340;340;340;340;340;340;340" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+<circle class="node" r="6.5" cx="244" cy="340"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="244;244;244;244;244;244;244;244;244" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="340;340;340;340;340;340;340;340;340" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/><animate attributeName="fill" dur="6s" repeatCount="indefinite" keyTimes="0;0.14;0.36;0.42;0.58;0.62;0.86;0.94;1" values="#FF8A00;#FF8A00;#FF8A00;#FF8A00;#FF8A00;#3DDC84;#3DDC84;#FF8A00;#FF8A00" calcMode="discrete"/></circle>
+</svg>
+            <div class="hold"><i></i><span class="s1" data-i18n="screen.frame">Both in frame</span><span class="s2" data-i18n="screen.hold">Hold it together…</span><span class="s3" data-i18n="screen.done">Everyone matched</span></div>
+          </div>
+        </div>
+        <div class="float f1"><b>07:30</b><span data-i18n="card.float">Hands up · 2 people</span></div>
+        <div class="float f2"><span class="dot"></span>1.25 s</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SNOOZE BAND -->
+  <section class="band" aria-hidden="true">
+    <div class="marquee"><div><span>7:00</span><span class="o" data-i18n="snooze.word">Snooze</span><span>7:09</span><span class="o" data-i18n="snooze.word">Snooze</span><span>7:18</span><span class="o" data-i18n="snooze.word">Snooze</span><span>7:27</span><span class="o" data-i18n="snooze.word">Snooze</span></div><div><span>7:00</span><span class="o" data-i18n="snooze.word">Snooze</span><span>7:09</span><span class="o" data-i18n="snooze.word">Snooze</span><span>7:18</span><span class="o" data-i18n="snooze.word">Snooze</span><span>7:27</span><span class="o" data-i18n="snooze.word">Snooze</span></div></div>
+  </section>
+
+  <section class="problem wrap reveal">
+    <h2 data-i18n="problem.title">Sound familiar?</h2>
+    <p data-i18n="problem.body">An alarm for one is easy to silence alone. WeUp Clock turns getting up into something you do together.</p>
+  </section>
+
+  <!-- HOW -->
+  <section id="how" class="wrap section">
+    <p class="eyebrow" data-i18n="how.eyebrow">How it works</p>
+    <h2 class="h2" data-i18n="how.title">Three steps. Up together.</h2>
+    <div class="steps">
+      <article class="step reveal">
+        <div class="vis vis-alarm">
+          <div class="mini dark"><b>07:30</b><span data-i18n="card.sub1">Hands up · 2 people · Weekdays</span><i class="tg on"></i></div>
+          <div class="mini"><b>08:00</b><span data-i18n="card.sub2">Take flight · 3 people · Sat</span><i class="tg on"></i></div>
+        </div>
+        <span class="num">01</span><h3 data-i18n="how.1.t">Set one alarm</h3>
+        <p data-i18n="how.1.b">Pick a time, repeat days, 2–4 people, a pose and a sound. Create as many alarms as you like.</p>
+      </article>
+      <article class="step reveal">
+        <div class="vis vis-pose"><div class="g" data-pose="1"></div><div class="ring"></div></div>
+        <span class="num">02</span><h3 data-i18n="how.2.t">Strike the pose together</h3>
+        <p data-i18n="how.2.b">Place the phone, get everyone in frame and match the target pose. Dashed guides follow your bodies — hold it together for 1.25 seconds.</p>
+      </article>
+      <article class="step reveal">
+        <div class="vis vis-keep">
+          <div class="polaroid"><div class="ph"><div data-pose="1"></div></div><div class="cap"><b data-i18n="card.up">We’re up!</b><span>8.6 <em data-i18n="card.secs">s to finish together</em></span></div></div>
+          <div class="save" data-i18n="card.save">Save image</div>
+        </div>
+        <span class="num">03</span><h3 data-i18n="how.3.t">Keep the moment</h3>
+        <p data-i18n="how.3.b">See how fast you finished together, and save the photo if you want. Nothing is saved automatically.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- POSES -->
+  <section id="poses" class="dark-sec">
+    <div class="wrap section">
+      <p class="eyebrow" data-i18n="poses.eyebrow">Poses</p>
+      <h2 class="h2" data-i18n="poses.title">9 built-in poses. <em>Or make your own.</em></h2>
+      <p class="sub" data-i18n="poses.body">Three poses each for 2, 3 and 4 people, matched to your group size.</p>
+      <div class="pose-grid">
+        <div class="pose reveal"><div class="g" data-pose="1"></div><h3 data-i18n="p.1">Hands up</h3><span data-i18n="n.2">2 people</span></div><div class="pose reveal"><div class="g" data-pose="3"></div><h3 data-i18n="p.2">Wings</h3><span data-i18n="n.2">2 people</span></div><div class="pose reveal"><div class="g" data-pose="2"></div><h3 data-i18n="p.3">Morning partners</h3><span data-i18n="n.2">2 people</span></div><div class="pose reveal"><div class="g" data-pose="1"></div><h3 data-i18n="p.4">Hands up trio</h3><span data-i18n="n.3">3 people</span></div><div class="pose reveal"><div class="g" data-pose="2"></div><h3 data-i18n="p.5">Morning peaks</h3><span data-i18n="n.3">3 people</span></div><div class="pose reveal"><div class="g" data-pose="3"></div><h3 data-i18n="p.6">Take flight</h3><span data-i18n="n.3">3 people</span></div><div class="pose reveal"><div class="g" data-pose="1"></div><h3 data-i18n="p.7">Hands up crew</h3><span data-i18n="n.4">4 people</span></div><div class="pose reveal"><div class="g" data-pose="2"></div><h3 data-i18n="p.8">Morning wave</h3><span data-i18n="n.4">4 people</span></div><div class="pose reveal"><div class="g" data-pose="3"></div><h3 data-i18n="p.9">High &amp; low</h3><span data-i18n="n.4">4 people</span></div>
+        <div class="pose custom reveal"><div class="vf"><span>5</span></div><h3 data-i18n="custom.t">Make your own</h3><p data-i18n="custom.b">Shoot it on a 5-second timer or import a group photo. Upper body or full body, saved to My poses.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIVACY -->
+  <section id="privacy" class="wrap section">
+    <p class="eyebrow" data-i18n="privacy.eyebrow">Privacy</p>
+    <h2 class="h2" data-i18n="privacy.title">Just you, <em>and your iPhone.</em></h2>
+    <div class="nos">
+      <div class="no reveal"><b><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12"/></svg></b><span data-i18n="privacy.1">No account</span></div>
+      <div class="no reveal"><b><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12"/></svg></b><span data-i18n="privacy.2">No server</span></div>
+      <div class="no reveal"><b><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12"/></svg></b><span data-i18n="privacy.3">No cloud</span></div>
+      <div class="no reveal"><b><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12"/></svg></b><span data-i18n="privacy.4">No ads or tracking</span></div>
+    </div>
+    <p class="sub" data-i18n="privacy.body">Pose recognition runs on your iPhone with Apple Vision. No face recognition, no video recording. Custom poses keep only a line template — the source photo is discarded.</p>
+    <a class="link-arrow" href="privacy.html" data-i18n="privacy.link">Read the privacy policy →</a>
+  </section>
+
+  <!-- LANGUAGES -->
+  <section class="langs">
+    <div class="wrap">
+      <h2 class="h3" data-i18n="lang.title">Speaks 10 languages</h2>
+      <ul class="chips">
+        <li lang="en">Wake together</li><li lang="zh-Hans">一起起床</li><li lang="zh-Hant">一起起床</li><li lang="ja">一緒に目覚める</li><li lang="ko">함께 일어나</li><li lang="es">Despertar juntos</li><li lang="fr">Réveillez-vous ensemble</li><li lang="de">Gemeinsam aufwachen</li><li lang="pt-BR">Acordar juntos</li><li lang="ar" dir="rtl">نستيقظ معًا</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="wrap section faq">
+    <h2 class="h2" data-i18n="faq.title">FAQ</h2>
+    <details><summary data-i18n="faq.1.q">How many people do we need?</summary><p data-i18n="faq.1.a">2–4 people in the same room, sharing one iPhone.</p></details>
+    <details><summary data-i18n="faq.2.q">Can I still turn the alarm off?</summary><p data-i18n="faq.2.a">Yes. iOS always provides its own Stop control on the lock screen, and WeUp Clock can’t remove it. An unfinished task can schedule a follow-up reminder. For critical events, set a backup alarm.</p></details>
+    <details><summary data-i18n="faq.3.q">Do I need an account or internet?</summary><p data-i18n="faq.3.a">No. There’s no account, no server and no cloud — all recognition happens on your iPhone.</p></details>
+    <details><summary data-i18n="faq.4.q">Is the camera recording us?</summary><p data-i18n="faq.4.a">No. The camera is only used during foreground tasks and no video is recorded. A completion photo is written to Photos only when you tap Save image.</p></details>
+    <details><summary data-i18n="faq.5.q">Which devices are supported?</summary><p data-i18n="faq.5.a">iPhone running iOS 26.1 or later.</p></details>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final">
+    <div class="wrap final-in reveal">
+      <img src="icon.png" alt="" width="96" height="96">
+      <h2 data-i18n="final.title">Tomorrow morning, <em>wake up together.</em></h2>
+      <a class="badge light" data-appstore href="https://www.apple.com/app-store/" aria-label="Download on the App Store">
+        <svg viewBox="0 0 17 20" aria-hidden="true"><use href="#apple"/></svg>
+        <span><small data-i18n="cta.badgeSmall">Download on the</small><b data-i18n="cta.badgeBig">App Store</b></span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div class="brand"><img src="icon.png" alt="" width="28" height="28">WeUp Clock</div>
+    <nav aria-label="Footer">
+      <a href="support.html" data-i18n="footer.support">Support</a>
+      <a href="privacy.html" data-i18n="footer.privacy">Privacy policy</a>
+      <a href="mailto:qiezi.products@gmail.com?subject=WeUp%20Clock" data-i18n="footer.contact">Contact</a>
+    </nav>
+    <p>© <span id="year">2026</span> Jin Luo · WeUp Clock</p>
+  </div>
+</footer>
+<script src="assets/config.js"></script>
+<script src="assets/poses.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
